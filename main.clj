@@ -1,8 +1,6 @@
 (ns HeapClj.core
-  (:doc "A heap or priority queue is a tree-based data structure
-         that satisfies the heap property: for any given node C,
-         if P is a parent node of C, then the key of P is less than
-         or equal to the key of C.")
+  (:doc "A heap or priority queue is a tree-based data structure that satisfies the heap property: for any given node C,
+         if P is a parent node of C, then the key of P is less than or equal to the key of C.")
   (:gen-class)
   (:import [java.util PriorityQueue]))
 
