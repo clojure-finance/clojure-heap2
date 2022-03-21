@@ -50,13 +50,6 @@
    "}
   (:gen-class)
   (:import [java.util PriorityQueue]))
-  
-
-  
-
-
-
-
 
 (defn init-empty
   "initiate an empty heap"
