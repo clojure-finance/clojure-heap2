@@ -1,6 +1,7 @@
 # clojure-heap2
-Heap or Priority Queue in Clojure (from Java)
-A heap or priority queue is a tree-based data structure that satisfies the heap property, which is one maximally efficient implementation of a priority queue.
+Heap in Clojure (from `java.util.PriorityQueue`)
+
+A heap is a tree-based data structure that satisfies the heap property, which is one maximally efficient implementation of a priority queue.
 
 - In a min-heap: for any given node C, if P is a parent node of C, then the key of P is less than or equal to the key of C.
 - In a max-heap: for any given node C, if P is a parent node of C, then the key of P is greater than or equal to the key of C.
